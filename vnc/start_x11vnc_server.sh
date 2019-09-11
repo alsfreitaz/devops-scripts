@@ -8,15 +8,15 @@ display=":0"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    --display) ### VNC server display number
+    --display|-d) ### VNC server display number
       display=":$2"
       shift
       ;;
-    --help) ### Help menu
+    --help|-h) ### Help menu
       usage
       exit 0
       ;;
-    --)
+    --|-)
       shift
       break
       ;;
