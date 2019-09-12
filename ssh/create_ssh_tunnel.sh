@@ -31,7 +31,6 @@ while [[ $# -gt 0 ]]; do
       shift
       ;;
     --command|-c) ### (OPTIONAL) Command to run on the remote machine. If left unset, just a SSH tunnel will be created
-      echo "command set"
       command=$2
       shift
       ;;
