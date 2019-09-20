@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+sudo yum install @development zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel findutils
+
 if [ -d "$HOME/.pyenv" ]; then
   cd "$HOME/.pyenv"
   git pull
   cd -
-else 
+else
   curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 fi
 
