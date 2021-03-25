@@ -10,7 +10,7 @@ jmespath==0.9.4
 MarkupSafe==1.1.1
 pycparser==2.19
 pyvmomi==6.7.1.2018.12
-PyYAML==5.1.2
+PyYAML==5.4
 requests==2.22.0
 six==1.12.0
 urllib3==1.25.3
